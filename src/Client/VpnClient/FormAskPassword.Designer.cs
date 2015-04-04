@@ -42,14 +42,14 @@
             // 
             // buttonOK
             // 
-            this.buttonOK.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonOK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
             this.buttonOK.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonOK.BackgroundImage")));
             this.buttonOK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonOK.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonOK.FlatAppearance.BorderSize = 0;
             this.buttonOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonOK.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonOK.Location = new System.Drawing.Point(308, 11);
+            this.buttonOK.Location = new System.Drawing.Point(321, 38);
             this.buttonOK.Name = "buttonOK";
             this.buttonOK.Size = new System.Drawing.Size(44, 42);
             this.buttonOK.TabIndex = 5;
@@ -106,9 +106,9 @@
             // 
             // textBoxPrivateKey
             // 
-            this.textBoxPrivateKey.Location = new System.Drawing.Point(108, 85);
+            this.textBoxPrivateKey.Location = new System.Drawing.Point(321, 146);
             this.textBoxPrivateKey.Name = "textBoxPrivateKey";
-            this.textBoxPrivateKey.Size = new System.Drawing.Size(172, 20);
+            this.textBoxPrivateKey.Size = new System.Drawing.Size(10, 20);
             this.textBoxPrivateKey.TabIndex = 2;
             // 
             // label4
@@ -132,7 +132,7 @@
             this.AcceptButton = this.buttonOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
             this.ClientSize = new System.Drawing.Size(401, 194);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBoxHost);

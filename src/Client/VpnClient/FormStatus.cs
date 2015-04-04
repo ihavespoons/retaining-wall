@@ -399,5 +399,34 @@
         {
 
         }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void FormStatus_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormStatus_Resize(object sender, EventArgs e)
+        {
+            if (FormWindowState.Minimized == this.WindowState)
+            {
+                mynotifyicon.Visible = true;
+                mynotifyicon.ShowBalloonTip(500);
+                this.Hide();
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                mynotifyicon.Visible = false;
+            }
+        }
+
+        private void buttonMinimise_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
